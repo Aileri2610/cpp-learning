@@ -28,4 +28,15 @@ public:
             return a.percentProtein() < b.percentProtein();
         });
     }
+    virtual void highestProtein(vector<HealthyFood> listProtein){
+        vector<HealthyFood> vt;
+        int maxProtein = listProtein[0].getProtein();
+        for(auto x : listProtein){
+            if(x.getProtein() > maxProtein) maxProtein = x.getProtein();
+        }
+        for(auto x : listProtein){
+            if(x.getProtein() == maxProtein) vt.push_back(x);
+        }
+        return vt;
+    }
 };
