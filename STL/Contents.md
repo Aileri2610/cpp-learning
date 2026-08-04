@@ -2,4 +2,4 @@ Learning STL
 
 - Learned vector
 
-- Learned about vector
+- Learned about map
