@@ -37,9 +37,8 @@ public:
         sort(vt.begin(),vt.end(),[](Product a, Product b){
             return a.getDate() < b.getDate();
         });
-
     }
-    void display(){
+    virtual void display(){
         cout << "Name: " << Product::getName() << endl;
         cout << "Price: " << Product::getPrice() << endl;
         cout << "Date: " << Product::getDate() << endl; 

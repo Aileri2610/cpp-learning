@@ -27,7 +27,11 @@
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ]
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "cppStandard": "c++23",
+            "cStandard": "c23",
+            "compilerPath": "D:/MSYS2/ucrt64/bin/g++.exe"
         }
     ],
     "version": 4
